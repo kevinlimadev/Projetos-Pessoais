@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+button {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    text-align: center;
+    color: black;
+    border: 3px solid #9c2929;
+    background: #fac1c1b3;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    
+  }
+  .sim {
+    position: absolute;
+    top: 60%;
+    right: 40%;
+    text-align: center;
+    color: black;
+    border: 3px solid #1b8d2c;
+    background: #d9ffdfcc;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  .voltar{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    text-align: center;
+    color: black;
+    border: 3px solid #9c2929;
+    background: #fac1c160;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  
+  body {
+    background-image: url('https://expertreviews.b-cdn.net/sites/expertreviews/files/2022/04/love_island_2022_lead.jpg');
+    text-align: center;
+    /* Full height */
+
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .titulo {
+    font-family: 'Passions Conflict';
+    color: #ffffff;
+    text-shadow: 5px 5px black;
+    font-size: 10rem;
+    margin: 0;
+    padding: 2px;
+  }
+  
+  .heart {
+    font-size: 300px;
+    color: #e00;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+  }
+  
+  @keyframes beat{
+    to { transform: scale(1.4); }
+  }
+footer{
+    color: rgba(218, 183, 28, 0.871);
+    text-align: center;
+    font-style: italic;
+    font-size: 27px;
+    position: absolute;
+    top: 88%;
+    left: 45%;
+}
+
+a{
+    text-decoration: none;
+}
